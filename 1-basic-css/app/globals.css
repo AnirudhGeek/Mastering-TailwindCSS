@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+  /* background-color: red; */
+}
+
+.layout {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fdfeff, #e3f2ff, #e2f0fe);
+}
+
+.navbar-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.link-items {
+  font-size: 18px;
+  text-decoration: none;
+  color: #52525b;
+}
+
+.link-items:hover {
+  color: black;
+  transition: color 0.2s ease-out;
+}
+
+.btn{
+  all: unset;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 25px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 20px;
+  text-shadow: 0px 0.5px 1px rgba(0,0 ,0,0.25);
+  box-shadow: 0px 4px 10px rgba(0,0 ,0,0.25);
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #1d4ed8;
+  transition: color 0.2s ease-in-out;
+}
