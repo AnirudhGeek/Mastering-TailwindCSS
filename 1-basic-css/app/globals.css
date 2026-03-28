@@ -64,3 +64,34 @@
   background-color: #1d4ed8;
   transition: color 0.2s ease-in-out;
 }
+
+.hero-root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 50px;
+}
+
+.badge{
+  font-size: 14px;
+  padding: 4px 8px;  
+  font-weight: 500;
+  max-width: 360px;
+  width: fit-content;
+  background-color: oklch(93.619% 0.00758 260.884);
+  border: 1px solid oklch(93.573% 0.00928 258.489);
+  border-radius: 50;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+
+}
+
+
+.badge:hover{
+  background-color: oklch(92.058% 0.00931 258.487);
+  border-radius: 0.5px solid oklch(90.262% 0.01058 261.886);
+  transition: color ease-out;
+  cursor: pointer;
+}
